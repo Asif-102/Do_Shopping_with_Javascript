@@ -101,11 +101,27 @@
             </div>
             <!-- CART -->
             <div>
-                <p class="text-4xl text-center">Total added Products <span class="text-green-500">0</span>
+                <p class="text-4xl text-center">Total added Products <span id="total-products" class="text-green-500">0</span>
                 </p>
-                <div id="products-cart">
-
-                </div>
+                <div class="overflow-x-auto">
+                    <table class="table table-zebra w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Product Name</th>
+                          <th>Price</th>
+                        </tr>
+                      </thead>
+                      <tbody id="products-cart">
+                        <!-- <tr>
+                            <th>1</th>
+                            <td>Cy Ganderton</td>
+                            <td>Quality Control Specialist</td>
+                          </tr> -->
+                      </tbody>
+                    </table>
+                  </div>
             </div>
         </div>
     </main>
