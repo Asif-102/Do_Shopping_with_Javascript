@@ -51,7 +51,7 @@
                                 Price: $ <span>108</span>
                             </p>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary" id="product-1" onclick="addToCart(this)">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 Price: $ <span>113</span>
                             </p>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary" id="product-2" onclick="addToCart(this)">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                                 Price: $ <span>112</span>
                             </p>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary" id="product-3" onclick="addToCart(this)">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -93,16 +93,23 @@
                                 Price: $ <span>105</span>
                             </p>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary" id="product-3" onclick="addToCart(this)">Buy Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ... -->
-            <div>Cart</div>
+            <!-- CART -->
+            <div>
+                <p class="text-4xl text-center">Total added Products <span class="text-green-500">0</span>
+                </p>
+                <div id="products-cart">
+
+                </div>
+            </div>
         </div>
     </main>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
